@@ -5,6 +5,16 @@
   text-align: center;
 }
 
+.rojo{
+  background-color: red;
+}
+.verde{
+  background-color: green;
+}
+.amarillo{
+  background-color: yellow;
+}
+
 .logo {
   height: 6em;
   padding: 1.5em;

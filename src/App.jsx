@@ -1,12 +1,14 @@
 import './App.css';
 import Contador from './componentes/Contador';
 import Contador2 from './componentes/Contador2';
+import Ejercicio3 from './componentes/Ejercicio3';
+
 
 function App() {
    
     return (
       <div>
-        <Contador2>  </Contador2> 
+        <Ejercicio3> </Ejercicio3> 
       </div>
     )
   }
