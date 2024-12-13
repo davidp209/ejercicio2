@@ -37,9 +37,9 @@ const Ejercicio3 = (props) => {
 
             <p>Total: {total} </p>
 
-            <p>Porcentaje rojo: {Math.trunc(porcentajeRojo)}</p>
-            <p>Porcentaje amarillo: {Math.trunc(porcentajeAmarillo)}</p>
-            <p>Porcentaje verde: {Math.trunc(porcentajeVerde)}</p>
+            <p>Porcentaje rojo: {isNaN(porcentajeRojo) ? 0 : Math.trunc(porcentajeRojo)}</p>       
+            <p>Porcentaje rojo: {isNaN(porcentajeAmarillo) ? 0 : Math.trunc(porcentajeAmarillo)}</p>       
+            <p>Porcentaje rojo: {isNaN(porcentajeVerde) ? 0 : Math.trunc(porcentajeVerde)}</p>       
 
         </div>
     );

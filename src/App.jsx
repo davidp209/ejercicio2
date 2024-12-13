@@ -1,14 +1,13 @@
 import './App.css';
-import Contador from './componentes/Contador';
-import Contador2 from './componentes/Contador2';
-import Ejercicio3 from './componentes/Ejercicio3';
+import Contador4 from './componentes/Contador4';
+
 
 
 function App() {
    
     return (
       <div>
-        <Ejercicio3> </Ejercicio3> 
+        <Contador4>contador={10} </Contador4> 
       </div>
     )
   }
