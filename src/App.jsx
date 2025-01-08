@@ -1,13 +1,24 @@
 import './App.css';
-import Contador4 from './componentes/Contador4';
-
+import BarraHerramientas from './componentes/BarraHerramientas';
+import TemaContext from './contexts/TemaContext';
+import temas from './mocks/mock-temas'
+import Texto from './componentes/Texto';
 
 
 function App() {
    
     return (
       <div>
-        <Contador4>contador={10} </Contador4> 
+        <TemaContext.Provider value={temas.light}> 
+          
+          
+            <BarraHerramientas></BarraHerramientas>
+          
+          
+          </TemaContext.Provider> 
+      
+        <Texto> </Texto>
+
       </div>
     )
   }
